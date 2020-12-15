@@ -80,7 +80,7 @@ function draw(){
 }
 
 function keyPressed(){
-  if (keyCode === UP_ARROW || key === "w") {
+  if (keyCode === UP_ARROW || keyCode === 32 || keyCode === 87) {
     if (!gameStarted) {
       gameStarted=true;
     }
